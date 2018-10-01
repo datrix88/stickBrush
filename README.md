@@ -88,7 +88,7 @@ To use user's answers on questions, you can use {inputname} inside a data-conv-q
 
 ### Questions that doesn't expect answer (acts like messages)
 
-You can put messages in the chat flow. They are questions that doesn't expect any answer from the user, so the plugin will go on to the next question instantly. To do this, put a data-no-answer="true" attribute on an input tag. Example:
+You can put messages in the chat flow. Messages behave like questions that don't require any answer (aka input) from the user, so the plugin will go on to the next question instantly. To do this, put a data-no-answer="true" attribute on an input tag. Example:
 
 ```html
 <input type="text" data-conv-question="A fellow programmer! Cool." data-no-answer="true">
