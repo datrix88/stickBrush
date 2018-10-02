@@ -247,11 +247,11 @@ div.conv-form-wrapper  div#messages div.message.to {
 }
 div.conv-form-wrapper div#messages div.message.from {
     background: #06b79a;
-    color: #fff;
+    color: #ffff;
     border-top-right-radius: 0;
 }
 .message.to+.message.from, .message.from+.message.to {
-    margin-top: 15px;
+    margin-top: 19px;
 }
 @keyframes slideTop {
     0% {
