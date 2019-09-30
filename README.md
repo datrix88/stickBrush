@@ -149,3 +149,7 @@ If you like the plugin, consider buying me a cup of coffe.
 #### Stuff used to make this:
 
 * [Jack Moore's autosize plugin](https://github.com/jackmoore/autosize), used to autoresize the user input
+
+#### Coffee Consumption
+
+Coffee consumption while doing this was kept at a minimum. ;-) No cats were harmed, but some keyboards lost some keycaps due to frustration! xD 
