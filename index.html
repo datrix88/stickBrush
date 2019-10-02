@@ -98,7 +98,7 @@
 			}
 		}
 		function restore(stateWrapper) {
-			if(originalState != false) {
+			if(originalState != true) {
 				stateWrapper.current.next = originalState;
 				console.log('changed current.next to originalState');
 			}
