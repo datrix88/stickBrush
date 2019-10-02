@@ -1,7 +1,7 @@
 function SingleConvState(input){
     this.input = input;
     this.answer = '';
-    this.next = false;
+    this.next = true;
     return this;
 };
 SingleConvState.prototype.hasNext = function(){
