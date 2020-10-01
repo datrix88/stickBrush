@@ -78,7 +78,7 @@ Inside that div, you need to create div tags with data-conv-case attribute refer
 </div>
 ```
 
-### Referencing previous answers
+#### Referencing previous answers
 
 To use user's answers on questions, you can use {inputname} inside a data-conv-question tag, in which inputname references the question you need the answer from. If you want, you can get specific words from the answer using : selector (0-indexed). For example, when you need the user's first name, you can use {name}:0, and the plugin will get the first word from the "name" question's answer. Example:
 
