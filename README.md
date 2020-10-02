@@ -7,7 +7,7 @@ A plugin that transforms a form into a interative chat.
 Features:
 
 * Transform any input, select (multi or not) to questions on a interative chat
-* regex patterns
+* regex pattern
 * random question from within options
 * Fork conversation based on answer
 * Access previous answers to use on questions
