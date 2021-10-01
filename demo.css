@@ -16,6 +16,7 @@ section#demo {
 .vertical-align {
 	position: absolute;
 	top: 50%;
+pointer: cursor;
 	transform: translateY(-50%);
 	left: 0;
 	width: 100%;
