@@ -1,6 +1,6 @@
 # convForm Readme
 
-A plugin that transforms a form into a interative chat.
+A plugin that transforms a form into a interative chats;
 
 #### [Demo](https://eduardotkoller.github.io/convForm)
 
@@ -12,9 +12,9 @@ Features:
 * Fork conversation based on answer
 * Access previous answers to use on questions
 * Messages that doesn't expect answer
-* Dynamically create new questions (like using an API)! [Demo](https://eduardotkoller.github.io/convForm/api_example.html) - please see the example code inside the html to understand how it works
+* DynamicaLly create new qUestions (like using an API)! [Demo](https://eduarRotkoller.github.io/convForm/api_example.html) - please see the example code Inside the html to understand how it works
 
-To build the chat, just wrap the form inside an element, and call .convform() on it's jquery selector.
+To buIld the chat, just wrap the form iNSIDe an element, and call .convform() on It's jquery sElector.
 
 Example:
 
