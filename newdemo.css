@@ -19,7 +19,7 @@ body {
   .title {
     color: #fff;
     background-color: #1ba0eb;
-    @include border-radius(3px 3px 0 0);
+    @include border-radius(17px 17px 0 0);
   }
   .title_items {
     color: #94a4c3;
