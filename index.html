@@ -1,3 +1,5 @@
+121 lines (120 sloc)  6.73 KB
+
 <!DOCTYPE html>
 <html lang="en">
 <meta></meta>
@@ -70,11 +72,16 @@
 	        </div>
 	    </div>
 	</section>
-	<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="jquery-3.6.1.min.js"></script>
 	<script type="text/javascript" src="dist/autosize.min.js"></script>
 	<script type="text/javascript" src="dist/jquery.convform.js"></script>
 
 	<script>
+		var debug = false;
+		if (!debug) {
+			var console = {};
+			console.log = function(){};
+		}
 		function google() {
 			window.open("https://google.com");
 		}
