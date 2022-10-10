@@ -49,7 +49,7 @@
                         if (convState.current.answer.value === 'end') {
                             convState.current.next = false;
                             //emulating random response time (100-600ms)
-                            setTimeout(ready, Math.random() * 500 + 100);
+                            setTimeout(ready, Math.random() * 400 + 100);
                         } else {
                             convState.current.next = convState.newState({
                                 type: 'select',
