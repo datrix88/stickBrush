@@ -1,3 +1,5 @@
+121 lines (120 sloc)  6.73 KB
+
 <!DOCTYPE html>
 <html lang="en">
 <meta></meta>
@@ -75,6 +77,11 @@
 	<script type="text/javascript" src="dist/jquery.convform.js"></script>
 
 	<script>
+		var debug = false;
+		if (!debug) {
+			var console = {};
+			console.log = function(){};
+		}
 		function google() {
 			window.open("https://google.com");
 		}
